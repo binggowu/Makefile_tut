@@ -12,7 +12,7 @@ export BUILD_ROOT = $(shell pwd)
 # export LDFLAGS = `pkg-config --libs --cflags hiredis`
 
 # -I/usr/local/include/hiredis: hiredis
-export INCLUDE_PATH = $(BUILD_ROOT)/_include
+export INCLUDE_PATH = -I$(BUILD_ROOT)/_include
 
 # app目录要位于最下面
 BUILD_DIR = $(BUILD_ROOT)/net/ \
