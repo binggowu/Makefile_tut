@@ -6,7 +6,7 @@
 ifeq ($(DEBUG),true)
 CC = gcc -g
 VERSION = debug
-else`
+else
 cc = gcc
 VERSION = release
 endif
